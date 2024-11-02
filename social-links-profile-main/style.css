@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(0, 0%, 8%);
+  margin: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+#profile {
+  background: hsl(0, 0%, 12%);
+  border-radius: 17px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+#profile img {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  margin: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-weight: 400;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 10px;
+  color: hsl(75, 94%, 57%);
+}
+
+p {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+button {
+  display: block; /* Makes each button appear on a new line */
+  margin: 10px auto; /* Adds vertical space between buttons */
+  height: 50px;
+  width: 80%;
+  border-radius: 10px;
+  text-align: center;
+  background: hsl(0, 0%, 25%);
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0px, 0px, 0px, 0px;
+}
+
+button:hover {
+  background: hsl(75, 94%, 57%);
+  color: black;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  body {
+    margin: 30%;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+  }
+}
